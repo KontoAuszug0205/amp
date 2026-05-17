@@ -1,1 +1,6 @@
-[]
+{
+  "DisplayName": "World of Warcraft Legion",
+  "Description": "LegionCore WoW Server",
+  "RequiresRestart": false,
+  "Category": "Generic"
+}
