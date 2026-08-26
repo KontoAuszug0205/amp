@@ -20,8 +20,8 @@ Meta.Prerequisites=[]
 Meta.ExtraContainerPackages=[]
 Meta.ConfigReleaseState=PreRelease
 Meta.NoCommercialUsage=False
-Meta.ConfigVersion=5
-Meta.ReleaseNotes=Fixes AMP placeholder expansion in all MySQL install/config/init stages
+Meta.ConfigVersion=6
+Meta.ReleaseNotes=Fixes MySQL runtime startup by using the instance-relative my.ini path
 Meta.BreakingReleaseNotes=
 Meta.AppConfigId=b730a3e4-4cd2-4f9d-bfea-1a1fff9bf8c1
 Meta.ImportableExtensions=[]
@@ -35,7 +35,7 @@ App.ExecutableLinux=
 App.WorkingDir=.
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=
-App.CommandLineArgs=--defaults-file="{$FullBaseDir}my.ini" --console
+App.CommandLineArgs=--defaults-file=my.ini --console
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={}
