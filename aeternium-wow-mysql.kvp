@@ -1,5 +1,5 @@
-Meta.DisplayName=WoW - MySQL Database
-Meta.Description=MySQL Community Server 8.0.46 for the Aeternium WoW Legion server. Uses the same MySQL generation and ports as the existing SPP database.
+Meta.DisplayName=MySQL
+Meta.Description=MySQL Community Server 8.0.46 managed by AMP.
 Meta.OS=Windows
 Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
@@ -20,14 +20,14 @@ Meta.Prerequisites=[]
 Meta.ExtraContainerPackages=[]
 Meta.ConfigReleaseState=PreRelease
 Meta.NoCommercialUsage=False
-Meta.ConfigVersion=3
-Meta.ReleaseNotes=Full MySQL 8.0.46 template with SPP-compatible ports, migration helpers and MySQL wallpaper
+Meta.ConfigVersion=4
+Meta.ReleaseNotes=Renamed module to MySQL and cleaned visible configuration labels while retaining MySQL 8.0.46 migration workflow
 Meta.BreakingReleaseNotes=
 Meta.AppConfigId=b730a3e4-4cd2-4f9d-bfea-1a1fff9bf8c1
 Meta.ImportableExtensions=[]
 Meta.AppIsMultiIPAware=False
 
-App.DisplayName=WoW - MySQL Database
+App.DisplayName=MySQL
 App.RootDir=./aeternium-wow-mysql/
 App.BaseDirectory=./aeternium-wow-mysql/
 App.ExecutableWin=mysql\bin\mysqld.exe

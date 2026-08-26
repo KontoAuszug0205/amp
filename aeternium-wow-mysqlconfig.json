@@ -13,11 +13,11 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "WoW Database User",
+        "DisplayName": "Database User",
         "Category": "MySQL:storage",
         "Subcategory": "WoW Access:account:2",
-        "Description": "Database account used by bnetserver.conf and worldserver.conf.",
-        "Keywords": "wow,spp,user,database",
+        "Description": "Application database account. Default is spp_user for the imported database.",
+        "Keywords": "database,user,spp",
         "FieldName": "WoWDBUser",
         "InputType": "text",
         "DefaultValue": "spp_user",
@@ -25,11 +25,11 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "WoW Database Password",
+        "DisplayName": "Database Password",
         "Category": "MySQL:storage",
         "Subcategory": "WoW Access:account:2",
-        "Description": "Password used by the WoW auth/world configuration.",
-        "Keywords": "wow,spp,password,database",
+        "Description": "Password for the application database account.",
+        "Keywords": "database,password,spp",
         "FieldName": "WoWDBPassword",
         "InputType": "password",
         "DefaultValue": "123456",
@@ -100,11 +100,11 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Legion Backup SQL Path",
+        "DisplayName": "SQL Backup Path",
         "Category": "MySQL:storage",
         "Subcategory": "Migration:upload:6",
-        "Description": "Full Windows path to the SQL dump to import, for example D:\\legion_backup.sql. This is used by the included import helper script.",
-        "Keywords": "backup,sql,import,migration,legion",
+        "Description": "Full Windows path to the SQL dump to import, for example D:\\legion_backup.sql.",
+        "Keywords": "backup,sql,import,migration",
         "FieldName": "BackupSQLPath",
         "InputType": "text",
         "DefaultValue": "D:\\legion_backup.sql",
