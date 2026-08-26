@@ -11,6 +11,6 @@
         "Port": 8081,
         "Ref": "RESTPort",
         "Name": "Login REST Port",
-        "Description": "REST login service port."
+        "Description": "Login REST service port."
     }
 ]
