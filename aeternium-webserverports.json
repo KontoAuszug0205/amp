@@ -4,6 +4,13 @@
         "Port": 80,
         "Ref": "HTTPPort",
         "Name": "HTTP Port",
-        "Description": "Apache HTTP port. AMP's assigned value is passed directly to Apache and synchronized with Windows Firewall."
+        "Description": "Apache HTTP port."
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 443,
+        "Ref": "HTTPSPort",
+        "Name": "HTTPS Port",
+        "Description": "Apache HTTPS port. Used when HTTPS is enabled."
     }
 ]
