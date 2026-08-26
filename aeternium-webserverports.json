@@ -4,6 +4,6 @@
         "Port": 80,
         "Ref": "HTTPPort",
         "Name": "HTTP Port",
-        "Description": "Apache HTTP web traffic"
+        "Description": "Apache HTTP port. AMP's assigned value is passed directly to Apache and synchronized with Windows Firewall."
     }
 ]
