@@ -20,14 +20,14 @@ Meta.Prerequisites=[]
 Meta.ExtraContainerPackages=[]
 Meta.ConfigReleaseState=PreRelease
 Meta.NoCommercialUsage=False
-Meta.ConfigVersion=2
-Meta.ReleaseNotes=Fix AMP startup state by using Immediate application readiness
+Meta.ConfigVersion=3
+Meta.ReleaseNotes=Dynamic AMP HTTP port binding, automatic Windows Firewall integration, PHP/phpMyAdmin fixes
 Meta.BreakingReleaseNotes=
 Meta.AppConfigId=31ff864c-80de-452d-8449-b692e8e24802
 Meta.ImportableExtensions=[]
 Meta.AppIsMultiIPAware=False
 
-App.DisplayName=Apache + PHP + phpMyAdmin
+App.DisplayName=Aeternium Apache + PHP + phpMyAdmin
 App.RootDir=./aeternium-webserver/
 App.BaseDirectory=./aeternium-webserver/
 App.SteamWorkshopDownloadLocation=
@@ -36,7 +36,7 @@ App.ExecutableLinux=
 App.WorkingDir=Apache24
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=
-App.CommandLineArgs=-f conf/httpd.conf
+App.CommandLineArgs=-DHTTPPORT={{$HTTPPort}} -f conf/httpd.conf
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={}
