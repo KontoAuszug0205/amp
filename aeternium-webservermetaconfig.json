@@ -1,1 +1,34 @@
-[]
+[
+    {
+        "ConfigFile": "Apache24/conf/aeternium-amp.conf",
+        "AutoMap": true,
+        "Importable": true,
+        "ConfigType": "ini",
+        "ConfigFormat": "{0} {1}",
+        "ConfigFormatRegex": "^(?<key>\\S+)\\s+(?<value>.*?)$"
+    },
+    {
+        "ConfigFile": "Apache24/conf/aeternium-php.conf",
+        "AutoMap": true,
+        "Importable": true,
+        "ConfigType": "ini",
+        "ConfigFormat": "{0} {1}",
+        "ConfigFormatRegex": "^(?<key>\\S+\\s+\\S+)\\s+(?<value>.*?)$"
+    },
+    {
+        "ConfigFile": "Apache24/htdocs/phpmyadmin/amp-db.ini",
+        "AutoMap": true,
+        "Importable": true,
+        "ConfigType": "ini",
+        "ConfigFormat": "{0}={1}",
+        "ConfigFormatRegex": "^(?<key>.+?)\\s*=\\s*(?<value>.*?)$"
+    },
+    {
+        "ConfigFile": "Apache24/conf/aeternium-phpmyadmin-access.conf",
+        "AutoMap": true,
+        "Importable": true,
+        "ConfigType": "ini",
+        "ConfigFormat": "{0} {1}",
+        "ConfigFormatRegex": "^(?<key>\\S+)\\s+(?<value>.*?)$"
+    }
+]
