@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Server Name / Domain",
-        "Category": "Web Server:dns:1",
+        "Category": "Web Server:dns",
         "Subcategory": "General:settings:1",
         "Description": "Domain or hostname Apache should use, for example aeterniumclan.de. Restart the instance after changing this value.",
         "Keywords": "domain,hostname,server,name",
@@ -15,7 +15,7 @@
     },
     {
         "DisplayName": "Server Admin E-Mail",
-        "Category": "Web Server:dns:1",
+        "Category": "Web Server:dns",
         "Subcategory": "General:settings:1",
         "Description": "Apache ServerAdmin value.",
         "Keywords": "admin,email,apache",
@@ -28,7 +28,7 @@
     },
     {
         "DisplayName": "Enable HTTPS",
-        "Category": "Web Server:dns:1",
+        "Category": "Web Server:dns",
         "Subcategory": "HTTPS:security:2",
         "Description": "Enables Apache SSL on the AMP HTTPS port. A certificate and private key must exist in Apache24/conf/ssl/server.crt and server.key. Restart required.",
         "Keywords": "https,ssl,tls,443",
@@ -43,7 +43,7 @@
     },
     {
         "DisplayName": "Redirect HTTP to HTTPS",
-        "Category": "Web Server:dns:1",
+        "Category": "Web Server:dns",
         "Subcategory": "HTTPS:security:2",
         "Description": "Redirects HTTP requests to HTTPS. Enable HTTPS first. Restart required.",
         "Keywords": "redirect,https,force",
@@ -58,7 +58,7 @@
     },
     {
         "DisplayName": "PHP Memory Limit",
-        "Category": "PHP:settings:2",
+        "Category": "PHP:settings",
         "Subcategory": "Runtime:settings:1",
         "Description": "Maximum memory available to one PHP request.",
         "Keywords": "php,memory,limit",
@@ -72,7 +72,7 @@
     },
     {
         "DisplayName": "PHP Upload Limit",
-        "Category": "PHP:settings:2",
+        "Category": "PHP:settings",
         "Subcategory": "Runtime:settings:1",
         "Description": "Maximum size of an uploaded file.",
         "Keywords": "php,upload,size",
@@ -86,7 +86,7 @@
     },
     {
         "DisplayName": "PHP POST Limit",
-        "Category": "PHP:settings:2",
+        "Category": "PHP:settings",
         "Subcategory": "Runtime:settings:1",
         "Description": "Maximum size of POST request data. Keep this at least as large as the upload limit.",
         "Keywords": "php,post,size",
@@ -100,7 +100,7 @@
     },
     {
         "DisplayName": "PHP Max Execution Time",
-        "Category": "PHP:settings:2",
+        "Category": "PHP:settings",
         "Subcategory": "Runtime:settings:1",
         "Description": "Maximum execution time for one PHP request in seconds.",
         "Keywords": "php,timeout,execution,time",
@@ -115,7 +115,7 @@
     },
     {
         "DisplayName": "PHP Timezone",
-        "Category": "PHP:settings:2",
+        "Category": "PHP:settings",
         "Subcategory": "Runtime:settings:1",
         "Description": "PHP runtime timezone.",
         "Keywords": "php,timezone,date",
@@ -129,7 +129,7 @@
     },
     {
         "DisplayName": "phpMyAdmin Database Host",
-        "Category": "phpMyAdmin:storage:3",
+        "Category": "phpMyAdmin:storage",
         "Subcategory": "Database:storage:1",
         "Description": "MySQL/MariaDB host used by phpMyAdmin.",
         "Keywords": "phpmyadmin,mysql,mariadb,host",
@@ -143,7 +143,7 @@
     },
     {
         "DisplayName": "phpMyAdmin Database Port",
-        "Category": "phpMyAdmin:storage:3",
+        "Category": "phpMyAdmin:storage",
         "Subcategory": "Database:storage:1",
         "Description": "MySQL/MariaDB TCP port used by phpMyAdmin.",
         "Keywords": "phpmyadmin,mysql,mariadb,port",
@@ -158,7 +158,7 @@
     },
     {
         "DisplayName": "phpMyAdmin Access",
-        "Category": "phpMyAdmin:storage:3",
+        "Category": "phpMyAdmin:storage",
         "Subcategory": "Security:security:2",
         "Description": "Controls who Apache allows to access /phpmyadmin. Public allows any web client; Local only allows requests from the server itself.",
         "Keywords": "phpmyadmin,access,security,local",
