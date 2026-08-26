@@ -1,0 +1,16 @@
+[
+    {
+        "Protocol": "TCP",
+        "Port": 1119,
+        "Ref": "BattleNetPort",
+        "Name": "Battle.net Port",
+        "Description": "Battle.net authentication port."
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 8081,
+        "Ref": "RESTPort",
+        "Name": "Login REST Port",
+        "Description": "REST login service port."
+    }
+]

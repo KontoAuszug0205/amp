@@ -1,0 +1,9 @@
+[
+    {
+        "UpdateStageName": "Create Logs Directory",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}Logs",
+        "SkipOnFailure": false
+    }
+]
