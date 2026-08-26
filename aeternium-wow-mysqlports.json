@@ -1,0 +1,16 @@
+[
+    {
+        "Protocol": "TCP",
+        "Port": 3310,
+        "Ref": "ServerPort",
+        "Name": "MySQL Port",
+        "Description": "Classic MySQL protocol used by the existing WoW configuration."
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 33060,
+        "Ref": "XProtocolPort",
+        "Name": "MySQL X Protocol",
+        "Description": "MySQL X Plugin port matching the existing MySQL 8.0.46 installation."
+    }
+]
