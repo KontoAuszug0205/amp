@@ -36,7 +36,7 @@ App.ExecutableLinux=
 App.WorkingDir=Apache24
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=
-App.CommandLineArgs=-DHTTPPORT={{$HTTPPort}} -f conf/httpd.conf
+App.CommandLineArgs=-C "Define HTTPPORT {{$HTTPPort}}" -f conf/httpd.conf
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={}
