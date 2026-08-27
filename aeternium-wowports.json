@@ -1,0 +1,58 @@
+[
+    {
+        "Protocol": "TCP",
+        "Port": 1119,
+        "Ref": "BattleNetPort",
+        "Name": "Battle.net Login",
+        "Description": "Battle.net authentication port used by bnetserver."
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 8081,
+        "Ref": "RESTPort",
+        "Name": "Login REST",
+        "Description": "Battle.net/Login REST service port."
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 7085,
+        "Ref": "WorldLegacy7085",
+        "Name": "World 7085 (Reserved)",
+        "Description": "Additional/legacy World port retained from the existing Aeternium firewall setup."
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 7878,
+        "Ref": "SOAPPort",
+        "Name": "SOAP",
+        "Description": "World SOAP administration port."
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 7879,
+        "Ref": "SOAPAltPort",
+        "Name": "SOAP 7879 (Reserved)",
+        "Description": "Additional SOAP port retained from the existing Aeternium firewall setup."
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 8085,
+        "Ref": "WorldPort",
+        "Name": "World Server",
+        "Description": "Primary World server port used by worldserver.conf."
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 8086,
+        "Ref": "InstanceLegacyPort",
+        "Name": "Instance 8086 (Reserved)",
+        "Description": "Additional/legacy instance port retained from the existing Aeternium firewall setup."
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 8087,
+        "Ref": "InstancePort",
+        "Name": "Instance Server",
+        "Description": "Second World/instance connection port used by worldserver.conf."
+    }
+]
