@@ -1,16 +1,16 @@
 [
-    {
-        "Protocol": "TCP",
-        "Port": 3310,
-        "Ref": "ServerPort",
-        "Name": "MySQL Port",
-        "Description": "Classic MySQL protocol used by the existing WoW configuration."
-    },
-    {
-        "Protocol": "TCP",
-        "Port": 33060,
-        "Ref": "XProtocolPort",
-        "Name": "MySQL X Protocol",
-        "Description": "MySQL X Plugin port matching the existing MySQL 8.0.46 installation."
-    }
+  {
+    "Protocol": "TCP",
+    "Port": 3310,
+    "Ref": "ServerPort",
+    "Name": "MySQL Port",
+    "Description": "Native SPP MySQL classic protocol port. Must match Database\\SPP-Database.ini."
+  },
+  {
+    "Protocol": "TCP",
+    "Port": 33060,
+    "Ref": "XProtocolPort",
+    "Name": "MySQL X Protocol",
+    "Description": "Default MySQL X Plugin port used by the bundled MySQL build when enabled."
+  }
 ]
